@@ -80,7 +80,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      words_per_minute: 5
+      words_per_minute: 20
       read_time: true
       comments: true
       share: true
@@ -92,14 +92,15 @@ defaults:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 footer:
   links:
